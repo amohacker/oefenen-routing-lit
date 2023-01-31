@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + Lit</title>
+    <link rel="stylesheet" href="./src/index.css" />
+    <script type="module" src="/src/my-element.js"></script>
+    <script type="module" src="/src/my-hello.js"></script>
+    <script type="module" src="/src/my-user.js"></script>
+
+  </head>
+  <body>
+    <a href="/">hello</a> 
+    <br>
+    <a href="/element">counter</a>
+    <a href="/users/1">User 1</a>
+    <a href="/users/2">User 2</a>
+    <a href="/users/3">User 3</a>
+    <a href="/users/4">User 4</a>
+    <a href="/users/5">User 5</a>
+
+    
+    <div id="outlet"></div>
+
+    <script type="module" src="/src/router.js">
+
+    </script>
+  </body>
+</html>
